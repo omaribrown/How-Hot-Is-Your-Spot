@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M308 468h665c4.4153202 0 8 3.5846798 8 8v49c0 4.4153202-3.5846798 8-8 8H308c-4.4153202 0-8-3.5846798-8-8v-49c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="360" y="495" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">Search bar - Google places API autofills </tspan> <tspan x="360" y="529" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">suggestions</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M142 214h997c4.4153202 0 8 3.5846798 8 8v170c0 4.4153202-3.5846798 8-8 8H142c-4.4153202 0-8-3.5846798-8-8V222c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="360" y="300" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">bio information and how to use application</tspan>
+  </text>
+  <rect width="1280" height="85" x="0" y="0" fill="rgb(200,200,200)"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="119" y="53" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">See cases around restaurants - See cases around your zip-code - Resources</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M1249 307h23c4.4153202 0 8 3.5846798 8 8v252c0 4.4153202-3.5846798 8-8 8h-23c-4.4153202 0-8-3.5846798-8-8V315c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="1087" y="461" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">share icons</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M6 766h1285c4.4153202 0 8 3.5846798 8 8v50c0 4.4153202-3.5846798 8-8 8H6c-4.4153202 0-8-3.5846798-8-8v-50c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="409.785" y="793.293" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">footer</tspan>
+  </text>
+</svg>

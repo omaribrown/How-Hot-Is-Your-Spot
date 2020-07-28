@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M402 468h571c4.4153202 0 8 3.5846798 8 8v49c0 4.4153202-3.5846798 8-8 8H402c-4.4153202 0-8-3.5846798-8-8v-49c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="441" y="495" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">form element that accepts a zipcode</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M142 214h997c4.4153202 0 8 3.5846798 8 8v111c0 4.4153202-3.5846798 8-8 8H142c-4.4153202 0-8-3.5846798-8-8V222c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="360" y="300" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">bio information and how to use application</tspan>
+  </text>
+  <rect width="1280" height="85" x="0" y="0" fill="rgb(200,200,200)"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="119" y="53" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">See cases around restaurants - See cases around your zip-code - Resources</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M1249 307h23c4.4153202 0 8 3.5846798 8 8v252c0 4.4153202-3.5846798 8-8 8h-23c-4.4153202 0-8-3.5846798-8-8V315c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="1087" y="461" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">share icons</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M277 468h75c4.4153202 0 8 3.5846798 8 8v49c0 4.4153202-3.5846798 8-8 8h-75c-4.4153202 0-8-3.5846798-8-8v-49c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="216" y="568" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">get current </tspan> <tspan x="216" y="602" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">location button</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M-11 764h1285c4.4153202 0 8 3.5846798 8 8v50c0 4.4153202-3.5846798 8-8 8H-11c-4.4153202 0-8-3.5846798-8-8v-50c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="392.785" y="791.293" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">footer</tspan>
+  </text>
+</svg>

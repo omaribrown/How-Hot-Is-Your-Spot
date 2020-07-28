@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M501 183h277c4.4153202 0 8 3.5846798 8 8v237c0 4.4153202-3.5846798 8-8 8H501c-4.4153202 0-8-3.5846798-8-8V191c0-4.4153202 3.5846798-8 8-8z"/>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M193 487h893c4.4153202 0 8 3.5846798 8 8v214c0 4.4153202-3.5846798 8-8 8H193c-4.4153202 0-8-3.5846798-8-8V495c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="523" y="336" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">map with pinpoint</tspan> <tspan x="523" y="370" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">on restaurant</tspan>
+  </text>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="505" y="135" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">Name of Restaurant</tspan>
+  </text>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="236.11" y="566.831" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">Data tables                                                 Data charts</tspan>
+  </text>
+  <rect width="1280" height="85" x="0" y="0" fill="rgb(200,200,200)"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="119" y="53" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">See case data around restaurants - See case data around your zip-code - Resources</tspan>
+  </text>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="1087" y="397" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">share icons</tspan>
+  </text>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M1249 243h23c4.4153202 0 8 3.5846798 8 8v252c0 4.4153202-3.5846798 8-8 8h-23c-4.4153202 0-8-3.5846798-8-8V251c0-4.4153202 3.5846798-8 8-8z"/>
+  <path fill="rgb(200,200,200)" fill-rule="evenodd" d="M-4 766h1285c4.4153202 0 8 3.5846798 8 8v50c0 4.4153202-3.5846798 8-8 8H-4c-4.4153202 0-8-3.5846798-8-8v-50c0-4.4153202 3.5846798-8 8-8z"/>
+  <text font-size="0" style="white-space:pre">
+    <tspan x="399.785" y="793.293" fill="rgb(0,0,0)" font-family="Arial" font-size="30" font-weight="400" style="white-space:pre;text-transform:none">footer</tspan>
+  </text>
+</svg>
