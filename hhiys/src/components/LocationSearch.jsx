@@ -9,9 +9,9 @@ export default class LocationSearch extends React.Component {
 
         this.state = {
             info: [],
-            lat: [],
-            lon: [],
-            name: []
+            name: [],
+            address: [],
+            zipcode: [],
         } 
     }
 
@@ -19,10 +19,15 @@ export default class LocationSearch extends React.Component {
         try {
             const result = await axios.get(call)
             this.setState({ info: result.data })
-            console.log( this.state.info )
+            this.setState({ name: result.data.results[0].name })
+            this.setState({ address: result.data.results[0].formatted_address })
         } catch {
             console.error( 'something aint right' )
         }
+    }
+
+    getZipcode() {
+        let 
     }
 
     componentDidMount() {
@@ -33,7 +38,8 @@ export default class LocationSearch extends React.Component {
     render() {
         return (
             <div>
-                
+                <h1>{ this.state.name }</h1>
+                <h1>{ this.state.address }</h1>
             </div>
         )
     }
