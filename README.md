@@ -28,19 +28,19 @@ Local Search Landing Page
 
 ## Development Schedule:
 ### Tuesday:
-- FIgure out the Google api to grab information on a specific Restaurant given the user's input. 
-- - Utilize Google's 
-- Store that data.
+- FIgure out the how to take user input into a Google Places API request to then store that data into a state. 
+- - Utilize Google's autocomplete feature and locationbias feature to better recommend what the user is looking for.
 ### Wednesday:
-- Work with the Covid-19 API to pull all data from a location based on the Restaurant.
+- Work with the Covid-19 API to pull all data from a location based on the stored data from the Google API call.
 - Build out Landing page
 ### Thursday: 
 - Figure out how to display data in tables and charts
-- Build out search results page
+- Take stored search data and results and pull additional data from Covid-19 API to display compared statistics.
 ### Friday:
+- Use Recharts library to graph compared data (partially a stretcch goal)
+### Saturday: 
 - Build out resources page that will have links to official Covid-19 information and testing websites.
 - Build out Navbar
 - Build out social media sharing 
-### Saturday: 
-- CSS entire site
-
+### Sunday: 
+- CSS everything
