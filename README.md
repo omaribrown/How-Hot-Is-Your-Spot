@@ -37,7 +37,7 @@ Local Search Landing Page
 - Figure out how to display data in tables and charts
 - Take stored search data and results and pull additional data from Covid-19 API to display compared statistics.
 ### Friday:
-- Use Recharts library to graph compared data (partially a stretcch goal)
+- Use Recharts library to graph the comparison between searched data to local, state, and national data. (partially a stretcch goal)
 ### Saturday: 
 - Build out resources page that will have links to official Covid-19 information and testing websites.
 - Build out Navbar
