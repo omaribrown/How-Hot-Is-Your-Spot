@@ -31,14 +31,8 @@ export default class LocationSearch extends React.Component {
         }
     }
 
-    getZipcode() {
-        let newAddress = this.state.address;
-        console.log(newAddress)
-    }
-
     componentDidMount() {
         this.getAddress()
-        this.getZipcode()
     }
 
 
