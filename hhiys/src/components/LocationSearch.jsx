@@ -2,7 +2,8 @@ import React from 'react'
 import axios from 'axios'
 
 const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
-const call =   `https://maps.googleapis.com/maps/api/place/textsearch/json?query=mercades+benz+stadium&key=${API_KEY}`
+const search = `mercades+benz+stadium`
+const call =   `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${search}&key=${API_KEY}`
 export default class LocationSearch extends React.Component {
     constructor() {
         super();
@@ -25,7 +26,6 @@ export default class LocationSearch extends React.Component {
             var zipcodeArr = address.match(/(\d+)/g)
             this.setState({ zipcode: zipcodeArr[1] })
             console.log(this.state.zipcode)
-            console.log(address)
         } catch {
             console.error( 'something aint right' )
         }
