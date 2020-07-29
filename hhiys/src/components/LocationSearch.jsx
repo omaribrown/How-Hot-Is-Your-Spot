@@ -5,7 +5,7 @@ const API_KEY = `AIzaSyA69H9t00AiBhrAdZj1JbTLG2br6md1tYo`
 const call =   `https://maps.googleapis.com/maps/api/place/textsearch/json?query=mercades+benz+stadium&key=${API_KEY}`
 export default class LocationSearch extends React.Component {
     constructor() {
-        super()
+        super();
 
         this.state = {
             info: [],
@@ -18,20 +18,26 @@ export default class LocationSearch extends React.Component {
     async getAddress() {
         try {
             const result = await axios.get(call)
-            this.setState({ info: result.data })
-            this.setState({ name: result.data.results[0].name })
-            this.setState({ address: result.data.results[0].formatted_address })
+            this.setState({ info: result.data.results[0] })
+            this.setState({ name: this.state.info.name })
+            this.setState({ address: this.state.info.formatted_address })
+            var address = this.state.address
+            
+            // this.setState({ zipcode: })
+            console.log(address)
         } catch {
             console.error( 'something aint right' )
         }
     }
 
     getZipcode() {
-        let 
+        let newAddress = this.state.address;
+        console.log(newAddress)
     }
 
     componentDidMount() {
         this.getAddress()
+        this.getZipcode()
     }
 
 
