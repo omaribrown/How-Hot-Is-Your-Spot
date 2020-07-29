@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 
-const API_KEY = `AIzaSyA69H9t00AiBhrAdZj1JbTLG2br6md1tYo`
+const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 const call =   `https://maps.googleapis.com/maps/api/place/textsearch/json?query=mercades+benz+stadium&key=${API_KEY}`
 export default class LocationSearch extends React.Component {
     constructor() {
@@ -34,7 +34,6 @@ export default class LocationSearch extends React.Component {
     componentDidMount() {
         this.getAddress()
     }
-
 
     render() {
         return (
