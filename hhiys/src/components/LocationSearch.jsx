@@ -13,6 +13,8 @@ export default class LocationSearch extends React.Component {
             name: [],
             address: [],
             zipcode: [],
+            searchbox: [],
+            searchSubmitted: false
         } 
     }
 
@@ -31,6 +33,21 @@ export default class LocationSearch extends React.Component {
         }
     }
 
+    onSearch = (e) => {
+        this.setState({
+            searchbox: e.target.value
+        })
+        
+    }
+
+    submitSearch = (e) => {
+        e.preventDefault()
+        this.setState({
+            searchSubmitted: true
+        })
+        alert("search submitted plaa")
+    }
+
     componentDidMount() {
         this.getAddress()
     }
@@ -40,6 +57,16 @@ export default class LocationSearch extends React.Component {
             <div>
                 <h1>{ this.state.name }</h1>
                 <h1>{ this.state.address }</h1>
+                <form>
+                    <input 
+                        type='text'
+                        value={this.state.searchbox}
+                        onChange={this.onSearch}
+                    >
+                    </input>
+                    <p>{this.state.searchbox}</p>
+                    <button type='submit' onClick={this.submitSearch}>submit</button>
+                </form>
             </div>
         )
     }
