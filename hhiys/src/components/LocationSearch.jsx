@@ -22,7 +22,10 @@ export default class LocationSearch extends React.Component {
             this.setState({ name: this.state.info.name })
             this.setState({ address: this.state.info.formatted_address })
             var address = this.state.address
-            
+            console.log(address.length)
+            for (let i = 0; i < address.length; i++) {
+
+            }
             // this.setState({ zipcode: })
             console.log(address)
         } catch {
