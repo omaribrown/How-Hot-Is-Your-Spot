@@ -2,22 +2,23 @@ import React from 'react';
 import './App.css';
 import SampleSearch from './components/SampleSearch'
 import CovidSearch from './components/CovidSearch'
-import { ZipcodeProvider } from './components/SampleSearch'
+import Context from './components/Context'
+// import { ZipcodeProvider } from './components/SampleSearch'
 // import LocationSearch from './components/LocationSearch'
 // import SampleSearch from './components/SampleSearch'
 // import CovidSearch from './components/CovidSearch'
 
-function App() {
-  const testObj = { name: "john" }
+export default function App() {
+  const [zipcode, setZipcode] = React.useState("");
 
   return (
     <div className="App">
-      <SampleSearch />
-      <ZipcodeProvider value={testObj}>
+      <Context.Provider value={{ zipcode, setZipcode }}>
+        <SampleSearch />
         <CovidSearch />
-      </ZipcodeProvider>
+      </Context.Provider>
     </div>
   );
 }
 
-export default App;
+export const ZipcodeContext = React.createContext(null);
