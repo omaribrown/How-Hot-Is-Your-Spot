@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import PlacesAutocomplete, {
   geocodeByAddress
 } from "react-places-autocomplete";
+import ZipContext from './Context'
+
 
 // https://www.youtube.com/watch?v=uJYqQdnw8LE
 
@@ -14,8 +16,13 @@ export default function SampleSearch() {
         const result = await geocodeByAddress(value);
         setAddress(value);
         const zipComp = await result[0].address_components[6].short_name;
+        console.log(zipComp)
         setZipcode(zipComp);
   };
+
+    const context = useContext(ZipContext);
+    context.setZipcode(zipcode)
+
 
   return (
     <div>
@@ -28,9 +35,6 @@ export default function SampleSearch() {
           <div>
                 <p>Zipcode: {zipcode}</p>
 
-            {/* <ZipcodeParam.Provider value={zipcode}>
-                
-            </ZipcodeParam.Provider> */}
             <input {...getInputProps({ placeholder: "Type address" })} />
 
             <div>
@@ -55,7 +59,6 @@ export default function SampleSearch() {
   );
 }
 
-export const ZipcodeContext = React.createContext("test");
-export const ZipcodeProvider = ZipcodeContext.Provider
-export const ZipcodeConsumer = ZipcodeContext.Consumer
+// export const ZipcodeProvider = ZipcodeContext.Provider
+// export const ZipcodeConsumer = ZipcodeContext.Consumer
 
