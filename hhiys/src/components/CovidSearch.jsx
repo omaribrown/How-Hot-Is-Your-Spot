@@ -1,13 +1,21 @@
-import React from 'react'
-import {ZipcodeParam} from './SampleSearch'
+import React, { Component } from 'react'
+import ZipcodeContext from './SampleSearch'
 
-function CovidSearch() {
-    console.log(ZipcodeParam)
-    return (
-        <div>
-            {/* <h1>Zipcode: {ZipcodeParam}</h1> */}
-        </div>
-    )
+class CovidSearch extends Component {
+    static contextType = ZipcodeContext
+
+    componentDidMount() {
+        const passedObj = this.context
+        console.log(passedObj)
+    }
+
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }
 
-export default CovidSearch()
+export default CovidSearch;

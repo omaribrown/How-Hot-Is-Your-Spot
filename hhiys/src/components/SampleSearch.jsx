@@ -55,6 +55,7 @@ export default function SampleSearch() {
   );
 }
 
-export const ZipcodeParam = React.createContext(null);
-
+export const ZipcodeContext = React.createContext("test");
+export const ZipcodeProvider = ZipcodeContext.Provider
+export const ZipcodeConsumer = ZipcodeContext.Consumer
 
