@@ -29,7 +29,7 @@ export default class LocationSearch extends React.Component {
             this.setState({ zipcode: zipcodeArr[1] })
             console.log(this.state.zipcode)
         } catch {
-            console.error( 'something aint right' )
+            console.error( 'something aint right with' )
         }
     }
 
