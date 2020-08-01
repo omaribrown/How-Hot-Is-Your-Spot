@@ -19,8 +19,9 @@ export default function CovidSearch() {
         try {
         const result = await axios.get(`https://localcoviddata.com/covid19/v1/cases/newYorkTimes?zipCode=${data.zipcode}&daysInPast=1`)
         console.log(result.data)
-        const positiveCt = await result.counties[0].historicData[0].positiveCt
-        console.log(positiveCt)
+        const countyPositiveCt = await result.data.counties[0].historicData[0].positiveCt
+        const countyDeathCt = await result.data.counties[0].historicData[0].deathCt
+        console.log(`positive cases confirmed: ${countyPositiveCt} and confirmed death count: ${countyDeathCt}`)
     } catch {
         console.error("something is wrong in covid search")
     }
