@@ -3,6 +3,7 @@ import PlacesAutocomplete, {
   geocodeByAddress
 } from "react-places-autocomplete";
 import ZipContext from './Context'
+import './Styles/SampleSearch.css'
 
 
 // https://www.youtube.com/watch?v=uJYqQdnw8LE
@@ -25,7 +26,18 @@ export default function SampleSearch() {
 
 
   return (
-    <div>
+    
+    <div className='sample-search'>
+      <div className='content-div'>
+      <div className='search-header'>
+        <h1>How Hot Is Your Spot</h1>
+      </div>
+      <div className='bio-container'>
+        <div className='search-bio'>
+          <p>This is an application that lets you enter your favorite restaurant and see the number of Covid-19 cases for that zip code in comparison to neighboring zip codes, the state, and the national averages. This app allows the user to see how effected their favorite areas to go are.</p>
+        </div>
+      </div>
+      </div>
       <PlacesAutocomplete
         value={address}
         onChange={setAddress}
@@ -58,7 +70,3 @@ export default function SampleSearch() {
     </div>
   );
 }
-
-// export const ZipcodeProvider = ZipcodeContext.Provider
-// export const ZipcodeConsumer = ZipcodeContext.Consumer
-
