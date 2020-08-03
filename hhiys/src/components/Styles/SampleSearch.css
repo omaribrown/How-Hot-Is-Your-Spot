@@ -1,0 +1,28 @@
+.sample-search {
+    background: #A8DADC;
+    height: 100vh;
+    /* padding-bottom: 10em; */
+}
+/* .search-header {
+    
+} */
+.bio-container {
+    background: #F1FAEE;
+    margin-bottom: auto;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+input {
+    width: 200px;
+    background: #F1FAEE;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .3s box-shadow;
+}
+
+input:hover {
+    box-shadow:0 0 5px 4px rgb(69, 123, 157);
+}
