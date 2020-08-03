@@ -1,11 +1,10 @@
 .sample-search {
     background: #A8DADC;
-    height: 100vh;
+    height: 80vh;
+    padding-top: 25%;
     /* padding-bottom: 10em; */
 }
-/* .search-header {
-    
-} */
+
 .bio-container {
     background: #F1FAEE;
     margin-bottom: auto;
@@ -13,6 +12,20 @@
     height: auto;
     display: inline-block;
     border-radius: 5px;
+}
+.search-bio {
+    text-align: justify;
+    padding: 5px 
+}
+
+.suggestion-div {
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 50%;
+    /* text-align: center;
+    display: block;
+    align-content: center;
+    width: 200px; */
 }
 
 input {
