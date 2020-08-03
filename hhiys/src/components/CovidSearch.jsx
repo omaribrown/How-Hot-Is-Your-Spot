@@ -10,7 +10,7 @@ import Zipcode from './Context'
 export default function CovidSearch() {
     const data = useContext(Zipcode)
     // const zipParam = 30316;
-    // const call = `https://localcoviddata.com/covid19/v1/cases/newYorkTimes?zipCode=30127&daysInPast=1`
+    // const censusCall = `https://api.census.gov/data/2019/pep/population?get=POP&for=county:*&in=state:*&key=YOUR_KEY_GOES_HERE`
 
     console.log(data)
     console.log(data.zipcode)
