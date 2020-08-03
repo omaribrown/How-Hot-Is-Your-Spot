@@ -28,15 +28,13 @@ export default function SampleSearch() {
   return (
     
     <div className='sample-search'>
-      <div className='content-div'>
-      <div className='search-header'>
-        <h1>How Hot Is Your Spot</h1>
-      </div>
+        <div className='search-header'>
+          <h1>How Hot Is Your Spot</h1>
+        </div>
       <div className='bio-container'>
         <div className='search-bio'>
           <p>This is an application that lets you enter your favorite restaurant and see the number of Covid-19 cases for that zip code in comparison to neighboring zip codes, the state, and the national averages. This app allows the user to see how effected their favorite areas to go are.</p>
         </div>
-      </div>
       </div>
       <PlacesAutocomplete
         value={address}
@@ -46,15 +44,16 @@ export default function SampleSearch() {
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div>
                 <p>Zipcode: {zipcode}</p>
+                <h3>Start typing your favorite restaurant...</h3>
 
             <input {...getInputProps({ placeholder: "Type address" })} />
 
-            <div>
+            <div className='suggestion-div'>
               {loading ? <div>...loading</div> : null}
 
               {suggestions.map((suggestion) => {
                 const style = {
-                  backgroundColor: suggestion.active ? "#41b6e6" : "#fff",
+                  backgroundColor: suggestion.active ? "#457B9D" : "#fff",
                 };
 
                 return (
