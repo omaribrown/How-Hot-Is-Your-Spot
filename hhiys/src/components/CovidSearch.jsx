@@ -18,7 +18,9 @@ export default function CovidSearch() {
         console.log(result.data)
         const countyPositiveCt = await result.data.counties[0].historicData[0].positiveCt
         const countyDeathCt = await result.data.counties[0].historicData[0].deathCt
-        console.log(`positive cases confirmed: ${countyPositiveCt} and confirmed death count: ${countyDeathCt}`)
+        const county = await result.data.counties[0]
+        alert(`In ${county}, there have been ${countyPositiveCt} cases of Covid-19 confirmed and ${countyDeathCt} deaths`)
+        alert(`Showing data collected for ${data.zipcode} by The New York Times.`)
     } catch {
         console.error("something is wrong in covid search")
     }
@@ -29,13 +31,11 @@ export default function CovidSearch() {
         return (
             <div>
                 <button onClick={handleZipcode}>
-                    Display nearby cases 
+                    Display Nearby Covid-19 Data
                 </button>
                 <h1>CovidSearch</h1>
-                <h1>In {data.zipcode}, there have been {countyPositiveCt} cases of Covid-19 confirmed and {countyDeathCt}</h1>
-                <p>Showing data collected for {counties} by The New York Times.</p>
+                <h1>In {data.zipcode}, there have been {data.countyPositiveCt} cases of Covid-19 confirmed and {data.countyDeathCt}</h1>
+                <p>Showing data collected for {data.county} by The New York Times.</p>
             </div>
         )
     }
-
-
