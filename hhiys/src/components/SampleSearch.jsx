@@ -33,7 +33,8 @@ export default function SampleSearch() {
         </div>
       <div className='bio-container'>
         <div className='search-bio'>
-          <p>This is an application that lets you enter your favorite restaurant and see the number of Covid-19 cases for that zip code in comparison to neighboring zip codes, the state, and the national averages. This app allows the user to see how effected their favorite areas to go are.</p>
+          <p>This is an application that lets you enter your favorite restaurant and see the number of Covid-19 cases for that zip code in comparison to neighboring zip codes, the state, and the national averages. This app allows the user to see how effected their favorite areas to go are.</p> 
+          <h5>Known Bugs: If the Zipcode box populates with a state code or country code instead of a zipcode, you'll need to refresh and try another restaurant. This issue comes from when the application is trying to grab the zipcode from the Google Places API and occasionally grabs the wrong index of data.</h5>
         </div>
       </div>
       <PlacesAutocomplete
@@ -44,7 +45,7 @@ export default function SampleSearch() {
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div>
                 <p>Zipcode: {zipcode}</p>
-                <h3>Start typing your favorite restaurant...</h3>
+                <h3>Start typing and select your favorite restaurant...</h3>
 
             <input {...getInputProps({ placeholder: "Type address" })} />
 
