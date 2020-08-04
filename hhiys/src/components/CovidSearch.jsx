@@ -1,9 +1,6 @@
 import React, { useContext } from 'react'
 import axios from 'axios'
 import Zipcode from './Context'
-
-// import ZipcodeContext from './SampleSearch'
-
 //cases per 1k people
 
 
@@ -27,12 +24,16 @@ export default function CovidSearch() {
     }
 }
 
+    
+
         return (
             <div>
                 <button onClick={handleZipcode}>
-                    Click me to do something 
+                    Display nearby cases 
                 </button>
                 <h1>CovidSearch</h1>
+                <h1>In {data.zipcode}, there have been {countyPositiveCt} cases of Covid-19 confirmed and {countyDeathCt}</h1>
+                <p>Showing data collected for {counties} by The New York Times.</p>
             </div>
         )
     }
