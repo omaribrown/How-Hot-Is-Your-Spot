@@ -1,0 +1,12 @@
+.navbar-div {
+    margin-bottom: 300px;
+    background-color: #1D3557;
+    overflow: hidden;
+}
+
+
+
+li {
+    display: inline;
+    /* align-items: column; */
+}
