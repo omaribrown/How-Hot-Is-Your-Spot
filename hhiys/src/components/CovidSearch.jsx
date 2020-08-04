@@ -34,7 +34,7 @@ export default function CovidSearch() {
                 <button onClick={handleZipcode}>
                     Display Nearby Covid-19 Data
                 </button>
-                <h1>CovidSearch</h1>
+                
                 {/* <h1>In {data.zipcode}, there have been {data.countyPositiveCt} cases of Covid-19 confirmed and {data.countyDeathCt}</h1> */}
                 {/* <p>Showing data collected for {data.county} by The New York Times.</p> */}
             </div>
