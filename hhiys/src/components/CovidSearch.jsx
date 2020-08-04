@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import axios from 'axios'
 import Zipcode from './Context'
+import './Styles/CovidSearch.css'
 //cases per 1k people
 
 
@@ -29,13 +30,13 @@ export default function CovidSearch() {
     
 
         return (
-            <div>
+            <div className='main-div'>
                 <button onClick={handleZipcode}>
                     Display Nearby Covid-19 Data
                 </button>
                 <h1>CovidSearch</h1>
-                <h1>In {data.zipcode}, there have been {data.countyPositiveCt} cases of Covid-19 confirmed and {data.countyDeathCt}</h1>
-                <p>Showing data collected for {data.county} by The New York Times.</p>
+                {/* <h1>In {data.zipcode}, there have been {data.countyPositiveCt} cases of Covid-19 confirmed and {data.countyDeathCt}</h1> */}
+                {/* <p>Showing data collected for {data.county} by The New York Times.</p> */}
             </div>
         )
     }
