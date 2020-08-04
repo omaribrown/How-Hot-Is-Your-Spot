@@ -6,10 +6,12 @@ import {
   Link
 } from "react-router-dom";
 import SampleSearch from './SampleSearch';
+import CovidSearch from './CovidSearch'
+import './Styles/NavBar.css'
 
 export default function NavBar() {
   return (
-    <Router>
+    <Router className='navbar-div'>
       <div>
         <nav>
           <ul>
@@ -30,11 +32,11 @@ export default function NavBar() {
             <SampleSearch />
           </Route>
           <Route path="/zipcode-search">
-            {alert("This page is still under construction. You are being redirected to the homepage.")}
+            {/* {alert("This page is still under construction. You are being redirected to the homepage.")} */}
             <SampleSearch />
           </Route>
           <Route path="/">
-            {alert("This page is still under construction. You are being redirected to the homepage.")}
+            {/* {alert("This page is still under construction. You are being redirected to the homepage.")} */}
             <SampleSearch />
           </Route>
         </Switch>
