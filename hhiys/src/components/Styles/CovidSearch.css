@@ -1,6 +1,7 @@
 .main-div {
     background: #A8DADC;
     margin-top: 0;
+    height: 50vh;
 }
 
 button {
@@ -20,3 +21,4 @@ button {
 button:hover {
     background: #374457;
 }
+
