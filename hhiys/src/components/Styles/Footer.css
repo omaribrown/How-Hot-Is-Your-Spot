@@ -1,4 +1,7 @@
 .footer-bar {
     background: #1D3557;
-    height: 5vh;
+    height: 100px;
+    position: sticky;
+    bottom: 0%;
+    /* right: auto; */
 }
