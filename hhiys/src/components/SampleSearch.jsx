@@ -5,8 +5,9 @@ import PlacesAutocomplete, {
 import ZipContext from './Context'
 import './Styles/SampleSearch.css'
 
+// instructions on AUTOCOMPLETE boilerplate
+// https://www.npmjs.com/package/react-places-autocomplete#utility-functions
 
-// https://www.youtube.com/watch?v=uJYqQdnw8LE
 
 export default function SampleSearch() {
     const [address, setAddress] = React.useState("");
