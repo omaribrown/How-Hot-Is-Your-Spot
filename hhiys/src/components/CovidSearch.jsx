@@ -31,7 +31,7 @@ export default function CovidSearch() {
 
         return (
             <div className='main-div'>
-                <h3>Next, hit the button below!</h3>
+                {/* <h3>Next, hit the button below!</h3> */}
                 <button onClick={handleZipcode}>
                     Display Nearby Covid-19 Data
                 </button>
