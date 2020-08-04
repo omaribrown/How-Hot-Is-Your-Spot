@@ -19,7 +19,7 @@ export default function CovidSearch() {
         console.log(result.data)
         const countyPositiveCt = await result.data.counties[0].historicData[0].positiveCt
         const countyDeathCt = await result.data.counties[0].historicData[0].deathCt
-        const county = await result.data.counties[0]
+        const county = await result.data.counties[0].countyName
         alert(`In ${county}, there have been ${countyPositiveCt} cases of Covid-19 confirmed and ${countyDeathCt} deaths`)
         alert(`Showing data collected for ${data.zipcode} by The New York Times.`)
     } catch {
