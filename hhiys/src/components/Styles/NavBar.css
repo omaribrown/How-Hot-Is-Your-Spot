@@ -1,12 +1,23 @@
-.navbar-div {
-    margin-bottom: 300px;
+ /* 
+li {
+   margin-bottom: 300px; 
     background-color: #1D3557;
     overflow: hidden;
 }
 
+li a {
+    color: #F1FAEE;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* 
 
-
+/*  */
 li {
+    /* float: left; */
     display: inline;
-    /* align-items: column; */
+    padding-left: 20px;
+    text-align: center;
 }
