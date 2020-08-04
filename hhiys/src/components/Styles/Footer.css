@@ -1,7 +1,9 @@
 .footer-bar {
+    padding-top: 10px;
     background: #1D3557;
     height: 100px;
     position: sticky;
     bottom: 0%;
+    color: white;
     /* right: auto; */
 }
