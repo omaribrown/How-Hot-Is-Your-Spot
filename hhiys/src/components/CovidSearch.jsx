@@ -18,7 +18,7 @@ export default function CovidSearch() {
         console.log(result.data)
         const countyPositiveCt = await result.data.counties[0].historicData[0].positiveCt
         const countyDeathCt = await result.data.counties[0].historicData[0].deathCt
-        const county = await result.data.counties[0]
+        const county = await result.data.counties[0].countyName
         alert(`In ${county}, there have been ${countyPositiveCt} cases of Covid-19 confirmed and ${countyDeathCt} deaths`)
         alert(`Showing data collected for ${data.zipcode} by The New York Times.`)
     } catch {
@@ -30,13 +30,9 @@ export default function CovidSearch() {
 
         return (
             <div className='main-div'>
-                {/* <h3>Next, hit the button below!</h3> */}
                 <button onClick={handleZipcode}>
                     Display Nearby Covid-19 Data
                 </button>
-                
-                {/* <h1>In {data.zipcode}, there have been {data.countyPositiveCt} cases of Covid-19 confirmed and {data.countyDeathCt}</h1> */}
-                {/* <p>Showing data collected for {data.county} by The New York Times.</p> */}
             </div>
         )
     }

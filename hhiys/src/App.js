@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import SampleSearch from './components/SampleSearch'
 import CovidSearch from './components/CovidSearch'
 import Context from './components/Context'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
+import SideShare from './components/SIdeShare';
 
 export default function App() {
   const [zipcode, setZipcode] = React.useState("");
@@ -13,9 +13,8 @@ export default function App() {
     <div className="App">
       <Context.Provider value={{ zipcode, setZipcode }}>
         <NavBar />  
-
-        {/* <SampleSearch /> */}
         <CovidSearch />
+        <SideShare />
       </Context.Provider>
       <Footer />
     </div>
