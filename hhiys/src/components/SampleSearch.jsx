@@ -41,9 +41,9 @@ export default function SampleSearch() {
       <div className='bio-container'>
         <div className='search-bio'>
           <p>This is an application that lets you enter your favorite restaurant and see the number of Covid-19 cases for that zip code in comparison to neighboring zip codes, the state, and the national averages. This app allows the user to see how effected their favorite areas to go are.</p> 
-          <h4>Known Bugs: If the Zipcode box populates with a state code or country code instead of a zipcode, you'll need to refresh and try another restaurant. </h4>
-          <h5>This issue comes from when the application is trying to grab the zipcode from the Google Places API and occasionally grabs the wrong index of data.</h5>
-          <h5>For whatever reason, my API from The New York Times doesnt have Covid-19 case data from New York. With that being said, search for a few restaurants in Atlanta that will populate the Zipcode box correctly. Thanks for your understanding (:</h5>
+          {/* <h4>Known Bugs: If the Zipcode box populates with a state code or country code instead of a zipcode, you'll need to refresh and try another restaurant. </h4> */}
+          {/* <h5>This issue comes from when the application is trying to grab the zipcode from the Google Places API and occasionally grabs the wrong index of data.</h5> */}
+          {/* <h5>For whatever reason, my API from The New York Times doesnt have Covid-19 case data from New York. With that being said, search for a few restaurants in Atlanta that will populate the Zipcode box correctly. Thanks for your understanding (:</h5> */}
         </div>
       </div>
       <PlacesAutocomplete

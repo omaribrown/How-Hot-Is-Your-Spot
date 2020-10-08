@@ -4,7 +4,7 @@ import CovidSearch from './components/CovidSearch'
 import Context from './components/Context'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
-import SideShare from './components/SIdeShare';
+// import SideShare from './components/SIdeShare';
 
 export default function App() {
   const [zipcode, setZipcode] = React.useState("");
@@ -14,7 +14,7 @@ export default function App() {
       <Context.Provider value={{ zipcode, setZipcode }}>
         <NavBar />  
         <CovidSearch />
-        <SideShare />
+        {/* <SideShare /> */}
       </Context.Provider>
       <Footer />
     </div>
